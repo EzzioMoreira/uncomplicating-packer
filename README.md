@@ -6,3 +6,5 @@ Curso descomplicando packer Linuxtips.
 ### Install Ansible container
 
 - apk -U add ansible
+
+### Adicionado provisioner ansible e shell

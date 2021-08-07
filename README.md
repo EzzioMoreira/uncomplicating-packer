@@ -8,3 +8,14 @@ Curso descomplicando packer Linuxtips.
 - apk -U add ansible
 
 ### Adicionado provisioner ansible e shell
+- Instalando o Docker
+- Install k8s
+
+### Running project
+- packer build app.json.pkr.hc
+
+### Add variables
+- variable "ami_name"
+- variable "region"
+- variable "type"
+- variable "instance_typ"

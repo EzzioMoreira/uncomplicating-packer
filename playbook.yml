@@ -4,6 +4,12 @@
       become: yes
       become_method: sudo
       tasks:
+      - name: Install cowsay
+        apt: 
+           name: cowsay 
+           update_cache: yes  
+           state: latest
+
       - name: Instalando o Docker
         shell: curl -fsSL https://get.docker.com | bash -
     

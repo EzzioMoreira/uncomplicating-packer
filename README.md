@@ -23,4 +23,6 @@ Curso descomplicando packer Linuxtips.
 
 ### Debugging Packer Builds
 ```packer build -debug```
+```PACKER_LOG=1 packer build```
 - Debug mode informs the builders that they should output debugging information.
+- Packer has detailed logs which can be enabled

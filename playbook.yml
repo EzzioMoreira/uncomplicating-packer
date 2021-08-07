@@ -25,3 +25,4 @@
           - kubelet
           - kubeadm
           - kubectl
+          - httpd

@@ -19,3 +19,7 @@ Curso descomplicando packer Linuxtips.
 - variable "region"
 - variable "type"
 - variable "instance_typ"
+
+### Debugging Packer Builds
+```packer build -debug```
+- Debug mode informs the builders that they should output debugging information.
